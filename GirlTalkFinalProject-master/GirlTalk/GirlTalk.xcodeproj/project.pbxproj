@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1465240824A28218000D42E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240724A28218000D42E4 /* AppDelegate.swift */; };
+		1465240A24A28218000D42E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240924A28218000D42E4 /* SceneDelegate.swift */; };
+		1465240C24A28218000D42E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465240B24A28218000D42E4 /* ViewController.swift */; };
+		1465240F24A28218000D42E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1465240D24A28218000D42E4 /* Main.storyboard */; };
+		1465241224A28218000D42E4 /* GirlTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1465241024A28218000D42E4 /* GirlTalk.xcdatamodeld */; };
+		1465241424A2821A000D42E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1465241324A2821A000D42E4 /* Assets.xcassets */; };
+		1465241724A2821A000D42E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1465241524A2821A000D42E4 /* LaunchScreen.storyboard */; };
+		1465241F24A3D5EA000D42E4 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */; };
+		1465242124A3D625000D42E4 /* ViewControllerMakeAffirms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1465240424A28218000D42E4 /* GirlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1465240724A28218000D42E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1465240924A28218000D42E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1465240B24A28218000D42E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1465240E24A28218000D42E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1465241124A28218000D42E4 /* GirlTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GirlTalk.xcdatamodel; sourceTree = "<group>"; };
+		1465241324A2821A000D42E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1465241624A2821A000D42E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1465241824A2821A000D42E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
+		1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMakeAffirms.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1465240124A28218000D42E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146523FB24A28218000D42E4 = {
+			isa = PBXGroup;
+			children = (
+				1465240624A28218000D42E4 /* GirlTalk */,
+				1465240524A28218000D42E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1465240524A28218000D42E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1465240424A28218000D42E4 /* GirlTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1465240624A28218000D42E4 /* GirlTalk */ = {
+			isa = PBXGroup;
+			children = (
+				1465240724A28218000D42E4 /* AppDelegate.swift */,
+				1465240924A28218000D42E4 /* SceneDelegate.swift */,
+				1465240B24A28218000D42E4 /* ViewController.swift */,
+				1465240D24A28218000D42E4 /* Main.storyboard */,
+				1465242024A3D625000D42E4 /* ViewControllerMakeAffirms.swift */,
+				1465241E24A3D5EA000D42E4 /* ViewControllerMenu.swift */,
+				1465241324A2821A000D42E4 /* Assets.xcassets */,
+				1465241524A2821A000D42E4 /* LaunchScreen.storyboard */,
+				1465241824A2821A000D42E4 /* Info.plist */,
+				1465241024A28218000D42E4 /* GirlTalk.xcdatamodeld */,
+			);
+			path = GirlTalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1465240324A28218000D42E4 /* GirlTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1465241B24A2821A000D42E4 /* Build configuration list for PBXNativeTarget "GirlTalk" */;
+			buildPhases = (
+				1465240024A28218000D42E4 /* Sources */,
+				1465240124A28218000D42E4 /* Frameworks */,
+				1465240224A28218000D42E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirlTalk;
+			productName = GirlTalk;
+			productReference = 1465240424A28218000D42E4 /* GirlTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146523FC24A28218000D42E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jemma Siegel";
+				TargetAttributes = {
+					1465240324A28218000D42E4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 146523FF24A28218000D42E4 /* Build configuration list for PBXProject "GirlTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146523FB24A28218000D42E4;
+			productRefGroup = 1465240524A28218000D42E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1465240324A28218000D42E4 /* GirlTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1465240224A28218000D42E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1465241724A2821A000D42E4 /* LaunchScreen.storyboard in Resources */,
+				1465241424A2821A000D42E4 /* Assets.xcassets in Resources */,
+				1465240F24A28218000D42E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1465240024A28218000D42E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1465240C24A28218000D42E4 /* ViewController.swift in Sources */,
+				1465242124A3D625000D42E4 /* ViewControllerMakeAffirms.swift in Sources */,
+				1465240824A28218000D42E4 /* AppDelegate.swift in Sources */,
+				1465241F24A3D5EA000D42E4 /* ViewControllerMenu.swift in Sources */,
+				1465240A24A28218000D42E4 /* SceneDelegate.swift in Sources */,
+				1465241224A28218000D42E4 /* GirlTalk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1465240D24A28218000D42E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1465240E24A28218000D42E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1465241524A2821A000D42E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1465241624A2821A000D42E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1465241924A2821A000D42E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1465241A24A2821A000D42E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1465241C24A2821A000D42E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GirlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JS.GirlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1465241D24A2821A000D42E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GirlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JS.GirlTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146523FF24A28218000D42E4 /* Build configuration list for PBXProject "GirlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1465241924A2821A000D42E4 /* Debug */,
+				1465241A24A2821A000D42E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1465241B24A2821A000D42E4 /* Build configuration list for PBXNativeTarget "GirlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1465241C24A2821A000D42E4 /* Debug */,
+				1465241D24A2821A000D42E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1465241024A28218000D42E4 /* GirlTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1465241124A28218000D42E4 /* GirlTalk.xcdatamodel */,
+			);
+			currentVersion = 1465241124A28218000D42E4 /* GirlTalk.xcdatamodel */;
+			path = GirlTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 146523FC24A28218000D42E4 /* Project object */;
+}
